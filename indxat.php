@@ -3,9 +3,9 @@ $botToken = '5983936163:AAFi6MEWzaa0PcJ-MvHf-GmRVazh0ShUhc4'; // Main bot token
 $apiUrl = "https://api.telegram.org/bot$botToken/";
 // Database connection
 $servername = "localhost"; 
-$username = "winfun_gws"; 
-$password = "winfun_gws"; 
-$dbname = "winfun_gws"; 
+$username = "bots_ahmedsyria03"; 
+$password = "Abn.syria#03"; 
+$dbname = "bots_ahmed"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
